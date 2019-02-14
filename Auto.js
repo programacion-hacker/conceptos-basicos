@@ -9,8 +9,15 @@ export default class Auto {
     get color(){
         return this._color;
     }
-     set color(color){
+    set color(color){
          this._color = color.toUpperCase();
+     }
+     set modelo(modelo){
+         if (modelo = 2000){
+         this._modelo = 2000;
+     } else {
+        this_modelo = modelo;
+     }
      }
 
     mostrarEstado(){
